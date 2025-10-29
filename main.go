@@ -1,10 +1,17 @@
 package main
 
 import (
-	"github.com/HigorMra/studies-go/meet"
+	"fmt"
+	"strings"
 )
 
 func main() {
-	meet.SayHello()
-	meet.Say("Olá Higor")
+	var hello string = "Olá, mundo!"
+	var question string = "Como vai?"
+
+	//Concatenação
+	var meet = hello + question
+	fmt.Println(meet)
+	fmt.Println(strings.ToUpper(meet))
+	fmt.Println(strings.Contains(meet, "vai"))
 }
