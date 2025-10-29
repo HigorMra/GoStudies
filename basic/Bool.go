@@ -1,9 +1,9 @@
-package bool
+package basic
 
 import "fmt"
 
 //
-func main() {
+func Bool1() {
 	var maior bool = 10 > 5
 	var menor bool = 5 > 10
 	fmt.Println("10 é maior que 5?:", maior)
